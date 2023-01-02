@@ -126,18 +126,7 @@ class DownloadRainfallFromVC:  NSObject, ObservableObject, NSFetchedResultsContr
         urlComponents.queryItems = queryItems
         
         let testURL = urlComponents.url!
-        //print(testURL)
-        // url created
-       // let url = urlComponents.url!
-        //test
-       // print(url)
-       // let url = URL(string: "https://weather.visualcrossing.com/VisualCrossingWebServices/rest/services/timeline/Bikaner/2022-07-01/2022-07-31?unitGroup=metric&elements=datetime%2Cprecip&include=days&key=4P4NBUCNQQKSRNENEM6CJNB88&contentType=json")
-       // let url = URL(string: "https://weather.visualcrossing.com/VisualCrossingWebServices/rest/services/timeline/28.0%2C%2073.3/2022-07-01/2022-07-31?unitGroup=metric&elements=datetime%2Cprecip&include=days&key=4P4NBUCNQQKSRNENEM6CJNB88&contentType=json")
-        // return url request
-        
-       // let url = URL(string: "https://weather.visualcrossing.com/VisualCrossingWebServices/rest/services/timeline/12.4552%2C%2075.7027/2021-12-01/2021-12-31?unitGroup=metric&maxDistance=50000&elements=datetime%2Cprecip%2Cstations%2Csource&include=remote%2Cobs%2Cdays&key=4P4NBUCNQQKSRNENEM6CJNB88&contentType=json")
-        
-       // print(url!)
+      
        
         return URLRequest(url: testURL)
         
@@ -187,12 +176,7 @@ class DownloadRainfallFromVC:  NSObject, ObservableObject, NSFetchedResultsContr
         // url created
         let url = urlComponents.url!
         
-        print(url)
-       // let testURL = URL(string: "https://weather.visualcrossing.com/VisualCrossingWebServices/rest/services/timeline/Bikaner/2022-07-01/2022-07-31?unitGroup=metric&elements=datetime%2Cprecip&include=days%2Cobs&key=4P4NBUCNQQKSRNENEM6CJNB88&contentType=json")
-        // return url request
-       // return URLRequest(url: url)
-        
-        // testing
+       
         return URLRequest(url: url)
         
     }
