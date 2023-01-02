@@ -174,7 +174,7 @@ class DownloadRainfallFromVC:  NSObject, ObservableObject, NSFetchedResultsContr
         // item for units returns rainfall in mm
         let queryItemUnit = URLQueryItem(name: "unitGroup", value: "metric") // rainfall in mm
         // vc key for open source
-        let queryItemKey = URLQueryItem(name: "key", value: "4P4NBUCNQQKSRNENEM6CJNB88")
+        let queryItemKey = URLQueryItem(name: "key", value: "")
         // daily historical observations
         let queryItemInclude = URLQueryItem(name: "include", value: "obs,days")
         // get rainfall for the day
